@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: naresh240/tomcat-kubernetes:latest
+        image: eu.gcr.io/eep-p32-hack1-bpid-2005201/hackthon/openam:latest
         ports:
         - containerPort: 8080
