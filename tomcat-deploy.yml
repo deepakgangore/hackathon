@@ -4,6 +4,7 @@ metadata:
   name: tomcat-deployment
   labels:
     app: tomcat
+  namespace: hackathon
 spec:
   replicas: 1
   selector:
